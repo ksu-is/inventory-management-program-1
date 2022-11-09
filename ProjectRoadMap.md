@@ -1,8 +1,9 @@
-– [] Establish repository
-- [] Create ReadMe
-- [] Create base code and add comments as it is done
-- [] Test and troubleshoot code
-- [] Rework code as neccesary
-- [] Test code until no errors
-- [] Finalize code
-- [] Ensure all changes have been committed to the Repository
+- [x] Establish repository
+- [x] Create ReadMe
+- [ ] Create Road Map
+- [ ] Create base code and add comments as it is done
+- [ ] Test and troubleshoot code
+- [ ] Rework code as neccesary
+- [ ] Test code until no errors
+- [ ] Finalize code
+- [ ] Ensure all changes have been committed to the Repository
