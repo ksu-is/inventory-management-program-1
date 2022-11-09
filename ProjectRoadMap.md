@@ -1,4 +1,4 @@
-- [] Establish repository
+– [] Establish repository
 - [] Create ReadMe
 - [] Create base code and add comments as it is done
 - [] Test and troubleshoot code
