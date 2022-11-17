@@ -1,0 +1,2 @@
+Item, On Hand, Used, Price
+Tape, 10, 0, 3.50
