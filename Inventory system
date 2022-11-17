@@ -1,10 +1,31 @@
+
+
+
+
 print("Welcome to your Inventory Management Dashboard!\n")
 print(" 1. View Items\n", "2. Add Items\n", "3. Usage Report\n", "4. Exit\n")
 
 dashboard_choice = int(input("What would you like to do?: "))
 
+
 if dashboard_choice == 1:
     print("View your inventory below!\n")
-    view_file = open("inventory.txt","r")
-    items = view_file.readlines()
-    print(items)
+    file = open("inventory.txt","r")
+    item_line = file.readline().split(",")
+    for word in item_line:
+        print(f"{word:20}", end= " ")
+   
+    while item_line:
+        item_line = file.readline().replace(",","").split()
+        print(item_line)
+            for word in item_line:
+            print(f"{word:20}")
+
+    
+        
+
+
+    
+
+   
+

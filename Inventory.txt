@@ -1,2 +1,3 @@
-Item, On Hand, Used, Price
+Item, On-Hand, Used, Price
 Tape, 10, 0, 3.50
+Glue, 1, 0, 10
