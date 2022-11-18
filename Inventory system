@@ -6,13 +6,9 @@ dashboard_choice = int(input("What would you like to do?: "))
 
 item_line = []
 if dashboard_choice == 1:
-    print("View your inventory below!\n")
+    print("\n\n"+ f"{'***** View your inventory below! *****': ^65}"+ "\n\n")
     data = open("inventory.txt","r")
-    headings = data.readline()
-    headings = headings.split(',')
     item_list = data.readline()
-
-    print(f"{'Item':20}{'On-Hand':20}{'Used':20}{'Cost':20}"+"\n")
     
 while item_list:
     
