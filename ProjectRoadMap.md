@@ -1,7 +1,9 @@
 - [x] Establish repository
 - [x] Fork Repository to KSU-IS
 - [x] Create ReadMe
-- [ ] Create Road Map
+- [x] Create Road Map
+- [x] Create Dashboard
+- [x] Create "View" function to view all inventory
 - [ ] Look for useable code in found repository (If nothing of use, create from scratch)
 - [ ] Create base code and add comments as it is done
 - [ ] Test and troubleshoot code
@@ -9,3 +11,4 @@
 - [ ] Test code until no errors
 - [ ] Finalize code
 - [ ] Ensure all changes have been committed to the Repository
+- [ ]
