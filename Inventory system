@@ -17,3 +17,5 @@ while item_list:
         print(f"{word:20}", end="")
     print("\n")
     item_list = data.readline().rstrip("\n")
+
+
