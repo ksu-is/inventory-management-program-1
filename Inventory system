@@ -1,3 +1,38 @@
+def View_action():
+    print("\n\n"+ f"{'***** View your inventory below! *****': ^65}"+ "\n\n")
+    file = open("inventory.txt","r")
+    item_list = file.readline()
+    
+    while item_list:
+    
+        item_list = item_list.split(',')
+        for word in item_list:
+            print(f"{word:20}", end="")
+        print("\n")
+        item_list = file.readline().rstrip("\n")
+
+def add_items():
+    new_item = []
+    while another_item == "y":
+        product_data = input("Enter the new product name: ")
+        new_item.append(product_data)
+        product_data = input("How many do you have On-Hand: ")
+        new_item.append(product_data)
+        product_data = input("How many have you used (if any): ")
+        new_item.append(product_data)
+        product_data = input("Enter the product cost: ")
+        new_item.append(product_data)
+        file = open("inventory.txt", "a")
+        new_item_str = ",".join(new_item)
+        new_item_str = "\n" + new_item_str 
+        file.write(new_item_str)
+        another_item == input('Would you like to add another item (y/n):').lower()
+      
+
+
+
+
+
 
 print("Welcome to your Inventory Management Dashboard!\n")
 print(" 1. View Items\n", "2. Add Items\n", "3. Usage Report\n", "4. Exit\n")
@@ -6,16 +41,8 @@ dashboard_choice = int(input("What would you like to do?: "))
 
 item_line = []
 if dashboard_choice == 1:
-    print("\n\n"+ f"{'***** View your inventory below! *****': ^65}"+ "\n\n")
-    data = open("inventory.txt","r")
-    item_list = data.readline()
-    
-while item_list:
-    
-    item_list = item_list.split(',')
-    for word in item_list:
-        print(f"{word:20}", end="")
-    print("\n")
-    item_list = data.readline().rstrip("\n")
+  View_action()
 
-
+if dashboard_choice == 2:
+    another_item = "y"
+    add_items()
