@@ -3,7 +3,9 @@
 - [x] Create ReadMe
 - [x] Create Road Map
 - [x] Create Dashboard
-- [x] Create "View" function to view all inventory
+- [x] Create "View" feature to view all inventory
+- [x] Create "add items" feature to add new inventory with proper formatting
+- [ ] Convert features to functions (Partially complete)
 - [ ] Look for useable code in found repository (If nothing of use, create from scratch)
 - [ ] Create base code and add comments as it is done
 - [ ] Test and troubleshoot code
@@ -11,4 +13,3 @@
 - [ ] Test code until no errors
 - [ ] Finalize code
 - [ ] Ensure all changes have been committed to the Repository
-- [ ]
